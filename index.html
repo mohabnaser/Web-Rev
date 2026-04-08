@@ -252,6 +252,17 @@ code{font-family:var(--fc);background:rgba(0,212,255,.08);color:var(--cyan);padd
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 .animate{animation:fadeIn .4s ease forwards}
 .topic{animation:fadeIn .3s ease forwards}
+/* ─── GLOBAL NAV ─── */
+.global-nav{display:flex;justify-content:center;gap:12px;padding:16px;background:var(--bg2);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:90;}
+.gn-link{display:flex;align-items:center;gap:8px;padding:8px 18px;border-radius:20px;text-decoration:none;font-family:var(--fh);font-size:.85rem;font-weight:600;transition:.2s;border:1px solid transparent;}
+.gn-link:hover{transform:translateY(-2px);}
+.gn-html{background:rgba(0,212,255,.08);color:var(--cyan);border-color:rgba(0,212,255,.2);}
+.gn-html:hover, .gn-html.active{background:var(--cyan);color:#000;box-shadow:0 0 15px rgba(0,212,255,.3);}
+.gn-css{background:rgba(244,114,182,.08);color:var(--pink);border-color:rgba(244,114,182,.2);}
+.gn-css:hover, .gn-css.active{background:var(--pink);color:#000;box-shadow:0 0 15px rgba(244,114,182,.3);}
+.gn-js{background:rgba(245,158,11,.08);color:var(--amber);border-color:rgba(245,158,11,.2);}
+.gn-js:hover, .gn-js.active{background:var(--amber);color:#000;box-shadow:0 0 15px rgba(245,158,11,.3);}
+@media(max-width:900px){ .global-nav{padding-left:60px;} }
 </style>
 </head>
 <body>
@@ -301,12 +312,18 @@ code{font-family:var(--fc);background:rgba(0,212,255,.08);color:var(--cyan);padd
 
 <!-- ═══════════════════════ MAIN ═══════════════════════ -->
 <main id="main">
+<!-- GLOBAL NAVIGATION -->
+<div class="global-nav">
+  <a href="index.html" class="gn-link gn-html active"><span class="icon">📡</span> HTTP & HTML</a>
+  <a href="css.html" class="gn-link gn-css"><span class="icon">🎨</span> CSS Guide</a>
+  <a href="js.html" class="gn-link gn-js"><span class="icon">⚡</span> JavaScript Guide</a>
+</div>
 
 <!-- HERO -->
 <div class="hero">
   <div class="hero-badge">⚡ IS231 · Slides 1, 2 & 3 · All Exam Questions Covered</div>
   <h1>Web Technology<br><span>Complete Study Guide</span></h1>
-  <p>HTTP Protocols · HTML · DOM · CSS — كل المنهج في مكان واحد مع شرح مبسط وأمثلة وأسئلة من الامتحانات الحقيقية</p>
+  <p>HTTP Protocols · HTML · DOM · CSS </p>
   <div class="hero-stats">
     <div class="hstat"><div class="num">5</div><div class="lbl">Chapters</div></div>
     <div class="hstat"><div class="num">4</div><div class="lbl">Exam Sources</div></div>

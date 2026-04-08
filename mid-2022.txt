@@ -1,0 +1,305 @@
+Cairo University
+Faculty of Computers and Artificial Intelligence
+
+Course Title: Web Technology
+Course Code: IS231
+Semester: Second
+Instructor: Dr. Neamat El Tazi & Dr. Mohamed Nour Eldin
+Exam Duration: 1 Hour
+
+--------------------------------------------------
+
+Midterm Exam
+
+Question 1: Choose the correct answer. Note that some of the questions are tagged with having multiple answers. [50 marks]
+
+1. When trying to access a URL, the following message is displayed on the browser: "Server Error 403". What could be the reason for the message?
+   a. The requested HTML file is not available
+   b. The URL refers to a script and the header of the script does not indicate where the interpreter is located
+   c. The path to the interpreter of the script file is invalid
+   d. The requested HTML file has insufficient permission
+
+2. ........ is a repository of information linked together from points all over the world.
+   a. The WWW
+   b. HTTP
+   c. HTML
+   d. None of the answers is correct
+
+3. The ........ is a standard for specifying any kind of information on the Internet.
+   a. URL
+   b. ULR
+   c. RLU
+   d. None of the answers!
+
+4. In a URL, the ............... is the computer on which the information is located.
+   a. Path
+   b. Protocol
+   c. Host
+   d. None of the answers!
+
+5. In a URL, an optional ........ can be inserted between the host and the path, and is separated from the host by a colon.
+   a. Port number
+   b. Protocol
+   c. Host
+   d. None of the answers!
+
+6. In a URL, the ........ is the full name of the resources where the information is located.
+   a. A filename
+   b. Path
+   c. Protocol
+   d. Host
+
+7. A cookie is created by ........
+   a. Server
+   b. Client
+   c. Host
+   d. None of the answers!
+
+8. HTTP uses the services of ........ On well-known port ........
+   a. TCP, 80
+   b. HTTP, 80
+   c. TCP, 443
+   d. HTTPS, 443
+
+9. HTTPS uses the services of ........ On well-known port ........
+   a. TCP, 443
+   b. HTTPS, 443
+   c. TCP, 80
+   d. TCP, 443
+
+10. An HTTP request contains ........
+    a. Method, URL, version
+    b. URL, headers, body
+    c. Method, header, body
+    d. None of the answers!
+
+11. "Referer" is a header that ........
+    a. Identifies the browser of the client
+    b. Identifies the URL that was clicked to reach the page
+    c. Identifies the referral language the user agent prefers to use
+    d. None of the answers!
+
+12. We can use the ........ tool to display the request, its headers and the response.
+    a. Browser incognito mode
+    b. Command line inspect tool
+    c. Browser developer tool (inspect)
+    d. None of the answers!
+
+13. The ........ of the ........ can contain parameters sent to the server.
+    a. Header, request
+    b. Body, request
+    c. Body, response
+    d. Header, response
+
+14. Sending data in the URL of the ........... is done by... method.
+    a. Request, POST
+    b. Response, POST
+    c. Request, GET
+    d. Response, GET
+
+15. Status code 200 denotes a successful HTTP Response.
+    a. True
+    b. False
+
+16. Status code 220 denotes a successful HTTP Response.
+    a. True
+    b. False
+
+17. An HTTP response message must contain ........
+    a. Content coming from server
+    b. Content coming from client
+    c. Status code
+    d. Body
+
+18. An HTTP response content type denotes ........
+    a. The media type of the content
+    b. The image size of the content
+    c. The text size of the content
+    d. None of the answers!
+
+19. "Expires: Tuesday, 17 Dec 2020 18:30 GMT" is...........
+    a. Request, time-based caching
+    b. Response, content-based caching
+    c. Request, content-based caching
+    d. Response, time-based caching
+
+20. To denote a permission of using a resource, you must use ........ header denoting...............
+    a. Authentication
+    b. Authorization
+    c. Validation
+    d. None of the answers
+
+21. Using authorization, having a response of status 200 means that ........
+    a. User is not authorized to see the response
+    b. User is authorized to see the response
+    c. Content cannot be displayed after authorization
+    d. None of the answers!
+
+22. Using authorization, having a response of status 403 means that ........
+    a. Server is reachable but the user is not authorized to see the response
+    b. Server is not reachable, and the user is not authorized to see the response
+    c. Server is reachable and no content available to show the user
+    d. None of the answers!
+
+23. A lock icon in the browser denotes ........
+    a. Hypertext transfer protocol over TCP, secured
+    b. Hypertext transfer protocol over TLS, unsecured
+    c. Secured Hypertext transfer protocol over TLS, secured
+    d. None of the answers!
+
+24. The HTML DOM is not useful in ........
+    a. Navigating HTML elements
+    b. Accessing HTML elements
+    c. Using methods to change the presentation of the HTML elements
+    d. None of the answers!
+
+25. (Multiple answers): To change the size of text, you can use ........
+    a. HTML <sub> and <sup> elements for small and large font size
+    b. Style attribute with font-size
+    c. CSS element with font size
+    d. Heading element with multiple font sizes
+
+26. (Multiple answers): To display a bold text in HTML, we can use ........
+    a. <b> element
+    b. <em> element
+    c. <strong> element
+    d. <i> element
+
+27. <del> HTML element is used to ........
+    a. Deletes the text.
+    b. Removes the text from the HTML element
+    c. Put a strike over the text
+    d. None of the answers!
+
+28. One of the uses of Cascading style is to ........
+    a. Identify how elements will be displayed on paper
+    b. Identify how elements will be saved to the server
+    c. Identify how elements will be sent to the client
+    d. None of the answers!
+
+29. (Multiple answers): CSS can be defined ........
+    a. Internally inside the HTML by adding the styles in the <style> element
+    b. Externally in a separate file by adding the <style> element inside the <head>
+    c. Inline inside an HTML element using the "style" attribute
+    d. None of the answers!
+
+30. (Multiple answers): A CSS rule-set consists of ........ and ........
+    a. Selector, multiple declarations
+    b. Selector, declaration
+    c. Selector, value
+    d. Selector, property
+
+31. <link rel="stylesheet" type="text/css" href="style.css"> is a declaration of ........
+    a. Internal CSS
+    b. External CSS
+    c. Inline CSS
+    d. None of the answers!
+
+32. What is the difference between an opening tag and a closing tag?
+    a. Opening tag has a /
+    b. Closing tag has /
+    c. There is no difference.
+
+33. Which of the following elements is used to create an unordered list?
+    a. <ui>
+    b. <li>
+    c. <ul>
+    d. <em>
+
+34. Which of the following is the correct way of creating a hyperlink in HTML?
+    a. <a> www.google.com<google/a>
+    b. <a href="www.google.com" google /a>
+    c. <a href="www.google.com"> google </a>
+    d. <a link="www.google.com" google </a>
+
+35. What is the purpose of using div tags in HTML?
+    a. For creating different styles
+    b. For creating different sections
+    c. For adding headings.
+    d. For adding titles
+
+36. Which of the following is the correct way to add background color in HTML?
+    a. <body color = "green">
+    b. <body bg-color="green">
+    c. <body style = "background-color=green">
+    d. <body style="background-color: green;">
+
+37. Which tag is used to add a header in HTML5 table?
+    a. <theader>
+    b. <th>
+    c. <h1>
+    d. <header>
+
+38. Which among the following is the correct way in HTML to insert an image?
+    a. <img url="https://bit.ly/2Fcglx">myimage </img>
+    b. <img href="https://bit.ly/2Fcglx" alt= "myimage"></img>
+    c. <img src="https://bit.ly/2Fcglx" alt="myimage">
+    d. <image src="https://bit.ly/2Fcglx" alt="myimage"></image>
+
+39. Who is known as the father of the WWW?
+    a. Robert Cailiau
+    b. Time Thompson
+    c. Berners Charles
+    d. Tim Berners-Lee
+
+40. An example of an environments that uses HTML and CSS without Web engines are:
+    a. Flutter
+    b. Puppeteer
+    c. Cordova
+    d. Firefox
+
+41. A headless browser is a browser ........
+    a. A browser without a head element
+    b. A browser without a graphical user interface
+    c. A browser with an iframe element
+    d. None of the answers!
+
+42. A webview is ........
+    a. A browser with a web interface
+    b. A browser with a single tab
+    c. A non-browser (native application) rendering a web page
+    d. None of the answers!
+
+43. Tags and texts that are not directly displayed on the page are written in ........
+    a. <head>
+    b. <title>
+    c. <body>
+    d. <html>
+
+44. How can you make a bulleted list with numbers?
+    a. <dl>
+    b. <bl>
+    c. <ol>
+    d. <ul>
+
+45. Which of the following is valid colour code?
+    a. #000000; #rrggbb
+    b. #00000000;
+    c. #0000000000;
+    d. #000000000000;
+
+46. Which of the following is used increase the width within an element?
+    a. Cellspacing
+    b. padding
+    c. Row span
+    d. Margin
+
+47. DOM stands for ........
+    a. Document object model
+    b. Data object model
+    c. Document oriented model
+    d. Data oriented model
+
+48. What are meta tags used for?
+    a. To store information usually relevant to browsers and search engines
+    b. To only store information usually relevant to browsers
+    c. To only store information about search engines
+    d. To store information about external links
+
+49. <meta> tag cannot be defined in the <head> tag
+    a. True
+    b. False
+
+50. Can you play audios in HTML?
+    a. Yes
+    b. No
