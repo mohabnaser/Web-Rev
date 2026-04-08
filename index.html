@@ -258,9 +258,13 @@ p, h1, h2, h3, h4, h5, h6, li, td, th,
 .q-text, .q-explain, .cheat-val, .cmt, .q-opt, .hero p, .hero-badge, .sb-link, 
 .topic p, .ch-title h2, .sb-logo p, .sb-logo h2, .q-num {
   unicode-bidi: plaintext;
-  text-align: start;
+  text-align: left;
+}
+.q-explain, .cheat-val, .cmt {
+  text-align: right;
 }
 code, strong, b, i, em, span, .kw, .str, .num, .fn, .prop, .tag, .attr, .val, .sel {
+  direction: ltr;
   unicode-bidi: isolate;
 }
 
@@ -2498,6 +2502,15 @@ document.addEventListener('DOMContentLoaded', () => {
   updateScrollTop();
   updateSidebar();
   animateCounters();
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('p, li, td, th, .topic-title, .ch-title p, .tip div, .warn div, .info div, .danger div, .note div, .q-text, .q-explain, .cheat-val, .cmt, .q-opt, .hero p, .topic p, .q-num').forEach(el => {
+    if (/[\u0600-\u06FF]/.test(el.textContent) && !el.textContent.startsWith('\u200F') && !/^[\s]*[A-Za-z]/.test(el.textContent)) {
+        el.innerHTML = '&#x200F;' + el.innerHTML;
+    }
+  });
 });
 </script>
 </body>
